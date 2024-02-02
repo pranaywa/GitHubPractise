@@ -1,7 +1,6 @@
 package inhertiance;
 
 public class InheritanceIntroduction {
-//Iheritance is one of the concept of Opps(Object oriented programming)
 //for acheving the reusability we can the inheritance.
 //Inheritance allow the class inherit or use the operities of the other class which it extends to it 
 //For Inhritance we have the provoide keyword in the child class extends to parent class
