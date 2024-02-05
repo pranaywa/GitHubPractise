@@ -18,12 +18,13 @@ public class TestNGListeners extends BaseTest implements ITestListener
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("Testcase Started"+result.getName());
-		test = extent.createTest("Testcase Starts");
+		test = extent.createTest(result.getName());
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("TestCase Passed"+result.getName());
+		
 		test.log(Status.PASS,"TestCase Passed "+result.getName());
 	}
 
