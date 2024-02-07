@@ -7,8 +7,9 @@ import extendListeners.TestNGListeners;
 public class WebInputTests extends TestNGListeners 
 {
 	@Test(priority = 1)
-	public void clickOnWebInputButton() { 	
+	public void clickOnWebInputButton() throws InterruptedException { 	
 		p.clickOnWebInput();
+		Thread.sleep(1000);
 	}
 	@Test(priority = 2)
 	public void inputTheDetails() {
@@ -21,8 +22,9 @@ public class WebInputTests extends TestNGListeners
 		p.clickOnClearInput();
 	}
 	@Test(priority = 4)
-	public void navigateTohomePage() {
+	public void navigateTohomePage() throws InterruptedException {
 		p.NaviagteToHome();
+		Thread.sleep(1000);
 	}
 
 }

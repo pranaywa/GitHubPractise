@@ -6,11 +6,15 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
+import practiseExpandTestingPages.DragNDrop;
+import practiseExpandTestingPages.DragNDropCircle;
 import practiseExpandTestingPages.WebInputPage;
 
 public class BaseTest {
-static WebDriver driver;
+public static WebDriver driver;
 public WebInputPage p;
+public DragNDrop d;
+public DragNDropCircle dc;
 
 @BeforeSuite
 public void initBrowser() {
@@ -22,6 +26,8 @@ public void initBrowser() {
 @BeforeClass
 public void objects() {
 	p = new WebInputPage(driver);
+	d = new DragNDrop(driver);
+	dc = new DragNDropCircle(driver);
 	
 }
 

@@ -1,5 +1,7 @@
 package extendListeners;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,6 +11,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import practiseExpandTestingTest.BaseTest;
+import utility.ScreenShotMethod;
 
 public class TestNGListeners extends BaseTest implements ITestListener
 {  
@@ -24,8 +27,13 @@ public class TestNGListeners extends BaseTest implements ITestListener
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("TestCase Passed"+result.getName());
-		
 		test.log(Status.PASS,"TestCase Passed "+result.getName());
+		try {
+			String pathOfFolder =ScreenShotMethod.takeShot(driver, result.getName());
+			test.addScreenCaptureFromPath(pathOfFolder);
+		} catch (IOException e) {
+			System.out.println("NullPointerException");
+		}
 	}
 
 	@Override

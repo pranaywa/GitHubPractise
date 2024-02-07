@@ -1,41 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T21:11:41 IST" name="Suite" finished-at="2024-02-05T21:11:48 IST" duration-ms="6499">
+  <suite started-at="2024-02-07T22:21:49 IST" name="Suite" finished-at="2024-02-07T22:22:08 IST" duration-ms="19149">
     <groups>
     </groups>
-    <test started-at="2024-02-05T21:11:41 IST" name="Test" finished-at="2024-02-05T21:11:48 IST" duration-ms="6499">
+    <test started-at="2024-02-07T22:21:49 IST" name="Test" finished-at="2024-02-07T22:22:08 IST" duration-ms="19149">
       <class name="practiseExpandTestingTest.WebInputTests">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:37 IST" name="initBrowser" finished-at="2024-02-05T21:11:41 IST" duration-ms="4304" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:46 IST" name="initBrowser" finished-at="2024-02-07T22:21:49 IST" duration-ms="2873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="objects()[pri:0, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:41 IST" name="objects" finished-at="2024-02-05T21:11:41 IST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="objects()[pri:0, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:49 IST" name="objects" finished-at="2024-02-07T22:21:49 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objects -->
-        <test-method signature="clickOnWebInputButton()[pri:1, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:41 IST" name="clickOnWebInputButton" finished-at="2024-02-05T21:11:42 IST" duration-ms="1080" status="PASS">
+        <test-method signature="clickOnWebInputButton()[pri:1, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:49 IST" name="clickOnWebInputButton" finished-at="2024-02-07T22:21:50 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnWebInputButton -->
-        <test-method signature="inputTheDetails()[pri:2, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:42 IST" name="inputTheDetails" finished-at="2024-02-05T21:11:43 IST" duration-ms="859" status="PASS">
+        <test-method signature="inputTheDetails()[pri:2, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:50 IST" name="inputTheDetails" finished-at="2024-02-07T22:21:50 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputTheDetails -->
-        <test-method signature="showTheInputDetails()[pri:3, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:43 IST" name="showTheInputDetails" finished-at="2024-02-05T21:11:47 IST" duration-ms="3340" status="PASS">
+        <test-method signature="showTheInputDetails()[pri:3, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:51 IST" name="showTheInputDetails" finished-at="2024-02-07T22:21:54 IST" duration-ms="3129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showTheInputDetails -->
-        <test-method signature="navigateTohomePage()[pri:4, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:47 IST" name="navigateTohomePage" finished-at="2024-02-05T21:11:48 IST" duration-ms="1031" status="PASS">
+        <test-method signature="navigateTohomePage()[pri:4, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:21:54 IST" name="navigateTohomePage" finished-at="2024-02-07T22:21:55 IST" duration-ms="1137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateTohomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiseExpandTestingTest.WebInputTests@e3b3b2f]" started-at="2024-02-05T21:11:49 IST" name="tearDown" finished-at="2024-02-05T21:11:49 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiseExpandTestingTest.WebInputTests@7ac296f6]" started-at="2024-02-07T22:22:08 IST" name="tearDown" finished-at="2024-02-07T22:22:09 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- practiseExpandTestingTest.WebInputTests -->
+      <class name="practiseExpandTestingTest.DragNDropCirclesTest">
+        <test-method is-config="true" signature="objects()[pri:0, instance:practiseExpandTestingTest.DragNDropCirclesTest@9cb8225]" started-at="2024-02-07T22:22:03 IST" name="objects" finished-at="2024-02-07T22:22:03 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objects -->
+        <test-method signature="clickOnDragNDrop()[pri:1, instance:practiseExpandTestingTest.DragNDropCirclesTest@9cb8225]" started-at="2024-02-07T22:22:03 IST" name="clickOnDragNDrop" finished-at="2024-02-07T22:22:04 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDragNDrop -->
+        <test-method signature="dragCircleInTraget()[pri:2, instance:practiseExpandTestingTest.DragNDropCirclesTest@9cb8225]" started-at="2024-02-07T22:22:04 IST" name="dragCircleInTraget" finished-at="2024-02-07T22:22:07 IST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragCircleInTraget -->
+        <test-method signature="navigateToHome()[pri:3, instance:practiseExpandTestingTest.DragNDropCirclesTest@9cb8225]" started-at="2024-02-07T22:22:07 IST" name="navigateToHome" finished-at="2024-02-07T22:22:08 IST" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+      </class> <!-- practiseExpandTestingTest.DragNDropCirclesTest -->
+      <class name="practiseExpandTestingTest.DragNDropTest">
+        <test-method signature="clickOnHomeButton()[pri:1, instance:practiseExpandTestingTest.DragNDropTest@4b86805d]" started-at="2024-02-07T22:21:55 IST" name="clickOnHomeButton" finished-at="2024-02-07T22:21:58 IST" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnHomeButton -->
+        <test-method is-config="true" signature="objects()[pri:0, instance:practiseExpandTestingTest.DragNDropTest@4b86805d]" started-at="2024-02-07T22:21:55 IST" name="objects" finished-at="2024-02-07T22:21:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objects -->
+        <test-method signature="performDragAndDropAction()[pri:2, instance:practiseExpandTestingTest.DragNDropTest@4b86805d]" started-at="2024-02-07T22:21:58 IST" name="performDragAndDropAction" finished-at="2024-02-07T22:22:01 IST" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performDragAndDropAction -->
+        <test-method signature="navigateToHome()[pri:3, instance:practiseExpandTestingTest.DragNDropTest@4b86805d]" started-at="2024-02-07T22:22:02 IST" name="navigateToHome" finished-at="2024-02-07T22:22:03 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+      </class> <!-- practiseExpandTestingTest.DragNDropTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
