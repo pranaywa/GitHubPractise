@@ -9,6 +9,7 @@
       <class name="practiseExpandTestingTest.WebInputTests"/>
       <class name="practiseExpandTestingTest.DragNDropTest"></class>
       <class name="practiseExpandTestingTest.DragNDropCirclesTest"></class>
+      <class name="practiseExpandTestingTest.LoginTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
