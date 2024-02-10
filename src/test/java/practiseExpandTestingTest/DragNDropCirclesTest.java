@@ -20,4 +20,5 @@ public class DragNDropCirclesTest extends TestNGListeners
 	public void navigateToHome() {
 		dc.navigateToHome();
 	}
+	
 }

@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ExplicitWait {
+	
 //Explicit is a type of dynmanic waits and used when we to wait until the expected condition got satisfied.
 //Explicit wait is applied on webelement to satisfys the specific type of conditions.
 //For implement the explicit wait we have use WebDriverWait object and on the bases of reference variable we 
