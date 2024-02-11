@@ -6,10 +6,11 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="practiseExpandTestingTest.WebInputTests"/>
+     <class name="practiseExpandTestingTest.WebInputTests"/>
       <class name="practiseExpandTestingTest.DragNDropTest"></class>
       <class name="practiseExpandTestingTest.DragNDropCirclesTest"></class>
       <class name="practiseExpandTestingTest.LoginTest"></class>
+      <class name="practiseExpandTestingTest.FormValidationTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

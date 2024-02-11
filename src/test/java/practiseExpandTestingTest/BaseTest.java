@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeSuite;
 
 import practiseExpandTestingPages.DragNDrop;
 import practiseExpandTestingPages.DragNDropCircle;
+import practiseExpandTestingPages.FormValidationPage;
 import practiseExpandTestingPages.LoginPage;
 import practiseExpandTestingPages.WebInputPage;
 
@@ -17,6 +18,7 @@ public WebInputPage p;
 public DragNDrop d;
 public DragNDropCircle dc;
 public LoginPage login;
+public FormValidationPage f;
 //public String username;
 //public String password;
 //public String successMessage;
@@ -35,6 +37,7 @@ public void objects() {
 	d = new DragNDrop(driver);
 	dc = new DragNDropCircle(driver);
 	login = new LoginPage(driver);
+	f = new FormValidationPage(driver);
 //	username = login.username;
 //	password = login.password;
 //	successMessage = login.successLogin;

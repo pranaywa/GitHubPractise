@@ -6,14 +6,17 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="practiseExpandTestingTest.LoginTest">
+      <class name="practiseExpandTestingTest.FormValidationTest">
         <methods>
           <include name="objects"/>
+          <include name="clickOnRegisterButton"/>
           <include name="initBrowser"/>
+          <include name="fillTheValidationForm"/>
           <include name="tearDown"/>
-          <include name="assertionValidation"/>
+          <include name="validatingTheThankYouMessage"/>
+          <include name="navigateToHomePage"/>
         </methods>
-      </class> <!-- practiseExpandTestingTest.LoginTest -->
+      </class> <!-- practiseExpandTestingTest.FormValidationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
