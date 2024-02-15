@@ -10,7 +10,8 @@ public class FormValidationTest extends TestNGListeners
 {
  
 	@Test(priority = 1)
-	public void clickOnFormButtonOnHomePage() {
+	public void clickOnFormButtonOnHomePage() throws InterruptedException {
+		Thread.sleep(500);
 		f.clickOnForm();
 	}
 	@Test(priority = 2)
@@ -18,7 +19,8 @@ public class FormValidationTest extends TestNGListeners
 		f.formValidationDetails();
 	}
 	@Test(priority = 3)
-	public void clickOnRegisterButton() {
+	public void clickOnRegisterButton() throws InterruptedException {
+		Thread.sleep(500);
 		f.clickOnRegister();
 	}
 	@Test(priority = 4)
