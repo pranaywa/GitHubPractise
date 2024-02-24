@@ -1,0 +1,350 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>54/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 23 17:08:30 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (526 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata30, password30</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata6, password6</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata7, password7</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.launch()'><b>launch</b><br>Test class: testNGprac.TestNGPrac</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata14, password14</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata21, password21</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata22, password22</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata31, password31</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata48, password48</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.login()'><b>login</b><br>Test class: testNGprac.TestNGPrac</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata20, password20</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata41, password41</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata49, password49</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.nagivateToApplication()'><b>nagivateToApplication</b><br>Test class: testNGprac.TestNGPrac</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata12, password12</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata13, password13</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata9, password9</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata15, password15</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata28, password28</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata39, password39</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata46, password46</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata16, password16</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata44, password44</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata43, password43</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata40, password40</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata17, password17</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata18, password18</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata25, password25</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata32, password32</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata1, password1</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata47, password47</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata27, password27</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata35, password35</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata4, password4</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata10, password10</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata23, password23</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata19, password19</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata38, password38</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.tearDown()'><b>tearDown</b><br>Test class: testNGprac.TestNGPrac</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata3, password3</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata34, password34</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata42, password42</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata37, password37</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata2, password2</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata45, password45</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata26, password26</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata5, password5</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata33, password33</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata36, password36</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata24, password24</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata11, password11</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata, password</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata8, password8</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+<tr>
+<td title='testNGprac.TestNGPrac.usernamePassword()'><b>usernamePassword</b><br>Test class: testNGprac.TestNGPrac<br>Parameters: userdata29, password29</td>
+<td></td>
+<td>0</td>
+<td>testNGprac.TestNGPrac@47d9a273</td></tr>
+</table><p>
+</body>
+</html>
