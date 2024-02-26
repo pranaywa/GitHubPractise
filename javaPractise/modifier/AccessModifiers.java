@@ -18,11 +18,18 @@ package modifier;
 	 }
 //Variable level - public - Variable access throughout the project
 //	               default - Variable access with in the package 
-//	               private - Variable access with in the class 
+//	               private - Variable access with in the class and outside the class we can use abstraction concept.
+//                 protected - Variable access with in the class and outside it can be call be child class refVariable
+//                 Final - Variable declared as final will not be intialize or modified
+	 final int k=1000;
 	 private int i = 1000;
 	 public void privateV() {
 		 System.out.println(i);
 	 }
+	 public static void main(String[] args) {
+	
+		
+	}
 //	
 //	
 //	
