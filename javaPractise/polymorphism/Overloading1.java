@@ -17,6 +17,9 @@ public void m1(int i, int j) {
 protected void m1(String s) {
 	System.out.println("method 1 with string argument");
 }
+public String m1(String s1,String s2) {
+	return "";
+}
 public Overloading1() {
 	System.out.println("constructor1");
 }

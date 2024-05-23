@@ -14,6 +14,9 @@ public void m1(int i) {
 protected void m1(String s) {
 	System.out.println("overidded method");
 }
+public String m1(String s1,String s2) {
+	return "";
+}
 public Overriding1() {
 	
 }

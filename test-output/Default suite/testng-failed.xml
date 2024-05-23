@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGprac.TestNGPrac">
+      <class name="testNGprac.DataProviderTestClass">
         <methods>
-          <include name="usernamePassword"/>
+          <include name="testCase"/>
         </methods>
-      </class> <!-- testNGprac.TestNGPrac -->
+      </class> <!-- testNGprac.DataProviderTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,33 +1,413 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-03T10:50:12 IST" name="Suite" finished-at="2024-03-03T10:50:13 IST" duration-ms="116">
+  <suite started-at="2024-05-20T15:04:20 IST" name="Default suite" finished-at="2024-05-20T15:04:21 IST" duration-ms="703">
     <groups>
     </groups>
-    <test started-at="2024-03-03T10:50:12 IST" name="Test" finished-at="2024-03-03T10:50:13 IST" duration-ms="116">
-      <class name="testNGprac.TestCases">
-        <test-method signature="test3()[pri:3, instance:testNGprac.TestCases@47d9a273]" started-at="2024-03-03T10:50:13 IST" name="test3" finished-at="2024-03-03T10:50:13 IST" duration-ms="21" status="PASS">
+    <test started-at="2024-05-20T15:04:20 IST" name="Default test" finished-at="2024-05-20T15:04:21 IST" duration-ms="703">
+      <class name="testNGprac.DataProviderTestClass">
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test2()[pri:2, instance:testNGprac.TestCases@47d9a273]" started-at="2024-03-03T10:50:13 IST" name="test2" finished-at="2024-03-03T10:50:13 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test1()[pri:1, instance:testNGprac.TestCases@47d9a273]" started-at="2024-03-03T10:50:13 IST" name="test1" finished-at="2024-03-03T10:50:13 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test5()[pri:5, instance:testNGprac.TestCases@47d9a273]" started-at="2024-03-03T10:50:13 IST" name="test5" finished-at="2024-03-03T10:50:13 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method signature="test4()[pri:4, instance:testNGprac.TestCases@47d9a273]" started-at="2024-03-03T10:50:13 IST" name="test4" finished-at="2024-03-03T10:50:13 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- testNGprac.TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method signature="testCase(java.lang.Object,java.lang.Object)[pri:0, instance:testNGprac.DataProviderTestClass@61001b64]" started-at="2024-05-20T15:04:21 IST" name="testCase" data-provider="DPClass" finished-at="2024-05-20T15:04:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwrod24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+      </class> <!-- testNGprac.DataProviderTestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
